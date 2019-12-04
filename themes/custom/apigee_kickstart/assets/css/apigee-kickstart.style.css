@@ -13061,188 +13061,6 @@ ul.social-links li a {
   background: inherit;
 }
 
-.product-bundle--view-mode-full .field {
-  margin-bottom: 1.5rem;
-}
-
-.apigee-m10n-prepaid-balance-wrapper h3 {
-  margin-bottom: 1.5rem;
-}
-.apigee-m10n-prepaid-balance-wrapper table .dropbutton-single .button {
-  border-radius: 2px;
-}
-
-form.prepaid-balance-refresh-form .btn {
-  font-size: 0.875rem;
-  text-transform: none;
-}
-form.prepaid-balance-refresh-form .btn:hover {
-  background-color: var(--ak-accent-color);
-  color: var(--ak-accent-color-light);
-  border-color: var(--ak-accent-color);
-}
-
-form.previous-balances-reports-download-form {
-  background-color: #f9f9f9;
-  border-radius: 4px;
-  padding: 1rem 1.5rem 1.2rem;
-  max-width: none !important;
-}
-@media (min-width: 768px) {
-  form.previous-balances-reports-download-form {
-    display: flex;
-    align-items: flex-end;
-  }
-}
-form.previous-balances-reports-download-form label {
-  font-size: 0.85rem;
-  font-weight: 500;
-  margin: 0;
-}
-@media (min-width: 768px) {
-  form.previous-balances-reports-download-form .form-item {
-    margin: 0 1rem 0 0;
-  }
-}
-form.previous-balances-reports-download-form .form-select {
-  background-color: #fff;
-}
-@media (min-width: 768px) {
-  form.previous-balances-reports-download-form .form-actions {
-    margin: 0 0 0 auto !important;
-  }
-}
-form.previous-balances-reports-download-form .form-actions .btn {
-  font-size: 0.875rem;
-  padding: 0.625rem 1rem;
-  text-transform: none;
-}
-
-.rate-plan--view-mode-teaser {
-  border: 0;
-}
-.main--pricing-plans .rate-plan--view-mode-teaser {
-  width: 100%;
-}
-.rate-plan--view-mode-teaser .card-body {
-  padding: 1.5rem;
-  height: 100%;
-  display: flex;
-  flex-flow: row wrap;
-}
-.rate-plan--view-mode-teaser .card-body > * {
-  flex: 1 0 100%;
-}
-.rate-plan--view-mode-teaser .card-title {
-  font-size: 1.5rem;
-  font-weight: 200;
-  letter-spacing: normal;
-  margin-bottom: 1rem;
-}
-.rate-plan--view-mode-teaser .card-title a {
-  color: currentColor;
-}
-.rate-plan--view-mode-teaser .btn,
-.rate-plan--view-mode-teaser .btn--subscribe {
-  align-self: flex-end;
-}
-
-.rate-plan .field {
-  font-size: 0.75rem;
-}
-.rate-plan .field__label {
-  margin-bottom: 0.625rem;
-  line-height: 1;
-}
-
-.rate-plan__products .field__items {
-  display: flex;
-  flex-flow: row wrap;
-}
-.rate-plan__products .field__item:not(:last-child)::after {
-  content: ",";
-  margin-right: 1ch;
-}
-
-.rate-plan--view-mode-full h2 {
-  font-size: 1.5rem;
-  margin-bottom: 1.25rem;
-}
-.rate-plan--view-mode-full .field {
-  font-size: 0.875rem;
-}
-.rate-plan--view-mode-full .rate-plan__card .field {
-  font-size: 1rem;
-}
-.rate-plan--view-mode-full .rate-plan__card .field + .field {
-  margin-top: 0.5rem;
-}
-.rate-plan--view-mode-full .rate-plan__card .field--inline {
-  display: flex;
-  align-items: center;
-}
-.rate-plan--view-mode-full .rate-plan__card .field--inline .field__label {
-  margin: 0 0.25rem 0 0;
-}
-.rate-plan--view-mode-full .rate-plan__card .field--inline .field__label:after {
-  content: ":";
-  position: relative;
-}
-.rate-plan--view-mode-full .rate-plan__card--fees .field--inline .field__label::after {
-  left: -0.5ch;
-}
-@media (min-width: 768px) {
-  .rate-plan--view-mode-full .rate_plan__detail-card {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
-.rate-plan--view-mode-full .rate_plan__detail-card .field {
-  margin: 0 0 1rem;
-}
-@media (min-width: 768px) {
-  .rate-plan--view-mode-full .rate_plan__detail-card .field {
-    width: 50%;
-  }
-}
-.rate-plan--view-mode-full .rate_plan__detail-card .field + .field {
-  margin-top: 0;
-}
-.rate-plan--view-mode-full form > .form-wrapper {
-  margin-bottom: 1rem;
-}
-.rate-plan--view-mode-full form > .form-wrapper:last-child {
-  margin-bottom: 0;
-}
-.rate-plan--view-mode-full form .field--name-startdate {
-  font-size: 0.875rem;
-}
-.rate-plan--view-mode-full form .field--name-startdate h4 {
-  font-size: 1rem;
-}
-.rate-plan--view-mode-full form .field--name-startdate .form-item {
-  margin-bottom: 0.25rem;
-}
-.rate-plan--view-mode-full form .field--name-startdate .form-control {
-  background-color: #fff;
-}
-
-.rate-plan-detail__table .table {
-  font-size: 1rem;
-}
-.rate-plan-detail__table .table tbody th,
-.rate-plan-detail__table .table tbody td {
-  vertical-align: top;
-  padding: 1.25rem 0;
-}
-.rate-plan-detail__table .table tbody tr:not(:last-child) {
-  border-bottom: 1px dotted #f0f0f0;
-}
-
-.purchased-plan-form .form-actions [data-drupal-selector=edit-cancel] {
-  margin-left: 1rem;
-}
-
 .team-switcher {
   max-width: 540px;
 }
@@ -13574,6 +13392,80 @@ form.commerce-checkout-flow .form-actions a:hover {
   position: relative;
 }
 
+form.team-add-form {
+  max-width: 540px;
+}
+
+form.team-app-form {
+  max-width: 540px;
+}
+form.team-app-form fieldset {
+  margin-top: 2rem;
+}
+form.team-app-form fieldset#edit-api-products--wrapper .fieldset-wrapper {
+  max-height: 300px;
+  overflow: scroll;
+}
+
+form.team-member-form {
+  max-width: 540px;
+}
+form.team-member-form .form-checkboxes small {
+  margin: 0 0 1rem;
+  display: block;
+}
+
+.views-exposed-form {
+  border-radius: 4px;
+  background-color: #fff;
+  overflow: hidden;
+  font-size: 0.875rem;
+  padding-top: 0.5rem;
+}
+.views-exposed-form fieldset,
+.views-exposed-form details {
+  margin: 0 !important;
+}
+.views-exposed-form fieldset {
+  border: 0 !important;
+}
+.views-exposed-form fieldset legend {
+  border: 0 !important;
+  line-height: 1.2;
+}
+.views-exposed-form fieldset legend span {
+  font-size: 1.25rem;
+}
+.views-exposed-form fieldset .fieldset-wrapper {
+  padding-top: 0 !important;
+}
+.views-exposed-form .form-actions {
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  margin: 0 !important;
+}
+.views-exposed-form .form-actions input {
+  width: 100%;
+  padding: 0.75rem 1.6rem;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  background-color: transparent;
+  color: var(--ak-accent-color);
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  text-align: left;
+  text-transform: none;
+}
+.views-exposed-form .form-actions input:hover {
+  text-decoration: none;
+}
+.views-exposed-form .form-actions input.btn-reset {
+  padding-left: 3.2rem;
+  background: url("../images/icons/close.svg") no-repeat 25px center;
+  margin: 0;
+  border-radius: 0;
+}
+
 .article__tags {
   margin-bottom: 1rem;
 }
@@ -13751,6 +13643,80 @@ div.forum__add {
 .page--search .page__messages,
 .page--search form.search-form {
   grid-column: 1/-1;
+}
+
+.path-teams .page__tasks .my-4 {
+  margin-bottom: 0 !important;
+}
+@media (min-width: 768px) {
+  .path-teams .page__tasks > .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+.path-teams .page__tasks > .container .block--apigee-kickstart-actions {
+  margin-left: auto;
+}
+.path-teams .page__tasks > .container .block--apigee-kickstart-tabs,
+.path-teams .page__tasks > .container .block--team-switcher {
+  width: 100%;
+}
+.path-teams .team-switcher {
+  max-width: none;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+}
+.path-teams .team-switcher .dropbutton-wrapper {
+  flex: 1;
+  margin-right: 0.5rem;
+}
+.path-teams .team-switcher > .btn-primary.btn-sm, .path-teams .btn-group-sm.team-switcher > .btn-primary.btn {
+  max-height: 36px;
+}
+.path-teams .page__content > table thead th {
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+.path-teams .page__content > table tr td {
+  padding: 1.2rem;
+  vertical-align: middle;
+}
+.path-teams .page__content > table tr td .dropbutton-multiple {
+  margin-right: 0 !important;
+  padding-right: 7rem;
+}
+.path-teams .page__content > table tr td:first-child {
+  font-size: 1rem;
+  width: 100%;
+}
+
+.path--entity-team-collection .page__content thead {
+  display: none;
+}
+.path--entity-team-collection .page__content td .dropbutton-multiple {
+  padding-right: 9rem !important;
+}
+
+.path--entity-team-members .block--apigee-kickstart-actions .my-4,
+.path--entity-team-app-collection-by-team .block--apigee-kickstart-actions .my-4 {
+  margin: 0 !important;
+}
+
+.path--entity-team-members .page__content table td {
+  vertical-align: middle;
+  width: 30% !important;
+}
+.path--entity-team-members .page__content table td:last-child {
+  width: 5% !important;
+}
+.path--entity-team-members .page__content table td ul {
+  padding: 0;
+  margin: 0;
+}
+.path--entity-team-members .page__content table td ul li {
+  list-style: none outside none;
 }
 
 .user--full {
